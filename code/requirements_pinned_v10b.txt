@@ -1,0 +1,14 @@
+# Environment of the final Pima run (run_config_2b18ef.md), imbalanced_v10b_inner_cv.py
+# Python 3.11.17, CPU. XGBoost results change with the library version (3.4.1 vs 3.2.0 differed).
+torch==2.14.1
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+xgboost==3.2.0
+lightgbm==4.6.0
+pandas==3.0.6
+numpy==2.4.6
+scipy==1.17.1
+# plotting / tests (versions not recorded in run_config; record them with `pip freeze`)
+matplotlib
+seaborn
+pytest
